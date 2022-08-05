@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -17,6 +16,10 @@ html {
   width: 50%;
 }
 
+#img-div #img-caption{
+  margin-top: 10px;
+}
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
     "Helvetica Neue", Arial, sans-serif;
@@ -31,6 +34,7 @@ body {
   padding: 50px;
   background-color: #eeeeee;
   font-size: 4rem;
+
 }
 
 p {
@@ -64,5 +68,6 @@ ul li {
 }
 
 #lastTitle{
+  margin-top: 10px;
   margin-bottom: 10px;
 }
