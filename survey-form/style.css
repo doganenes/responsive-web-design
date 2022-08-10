@@ -12,7 +12,7 @@ body {
   background-position: center;
   background-size: cover;
   font-family: "Roboto", sans-serif;
-}   
+}
 
 .container {
   display: flex;
@@ -28,11 +28,10 @@ body {
   font-size: 20px;
 }
 
-#title{
+#title {
   font-size: 40px;
-
 }
-#description{
+#description {
   text-align: center;
   font-size: 20px;
   font-style: italic;
@@ -55,12 +54,16 @@ select {
   display: block;
 }
 
-#email,#number,#name,#select,#dropdown{
+#email,
+#number,
+#name,
+#select,
+#dropdown {
   display: block;
   width: 100%;
 }
 
-.formSection{
+.formSection {
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -72,7 +75,7 @@ select {
   margin-right: 50px;
 }
 
-.formContent .topText{
+.formContent .topText {
   margin-bottom: 10px;
   margin-top: 10px;
 }
@@ -87,25 +90,25 @@ select {
 
 .radioCheckBox {
   margin: 10px;
- }
+}
 
-textarea{
+textarea {
   display: block;
   margin-top: 10px;
   width: 100%;
 }
 
-label{
+label {
   margin-left: 5px;
 }
 
-.btn{
+.btn {
   margin-top: 20px;
-text-align: center;
+  text-align: center;
 }
-#submit{
+#submit {
   width: 100%;
-  background-color: #37AF65;
+  background-color: #37af65;
   height: 40px;
   color: white;
   border: none;
