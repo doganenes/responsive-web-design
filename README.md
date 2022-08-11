@@ -1,5 +1,3 @@
-Responsive web design projects solutions on FreeCodeCamp.org.
-
 |  #  | Project                                                                                                         | Live Demo                                                     |
 | :-: | --------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- |
 | 01  | [Tribute Page](https://github.com/doganenes/responsive-web-design/tree/master/tributePage)                      | [Live Demo](https://tribute-page-project.vercel.app/)         |
