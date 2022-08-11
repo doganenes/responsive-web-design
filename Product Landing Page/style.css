@@ -14,7 +14,6 @@ body {
 }
 
 /* header start */
-
 header {
   display: flex;
   justify-content: space-between;
@@ -42,7 +41,6 @@ header {
   font-size: 16px;
   cursor: pointer;
 }
-
 /* header end */
 
 /* container start */
@@ -55,9 +53,8 @@ header {
 /* container end */
 
 /* subscribe section start */
-
 .subscribeSection {
-  margin-top: 40px;
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -71,20 +68,50 @@ header {
   margin: 20px 0;
 }
 
-.subscribeSection button{
-    background-color: #f1c40f;
-    width: 150px;
-    height: 40px;
-    cursor: pointer;
-    border-radius: 2px;
-    font-size: 18px;
-    text-transform: uppercase;
-    font-weight: 900;
-    letter-spacing: 1.1px;
+.subscribeSection button {
+  background-color: #f1c40f;
+  width: 150px;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 2px;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 1.1px;
 }
 
-.subscribeSection button:hover{
+.subscribeSection button:hover {
   background-color: rgb(255, 165, 0);
 }
-
 /* subscribe section end */
+
+/* grid container start */
+.gridContainer {
+  margin-top: 60px;
+}
+
+.gridContainer .grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 300px;
+}
+
+.grid .icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 125px;
+  width: 20vw;
+  color: rgb(255, 140, 0);
+}
+
+.grid .texts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 125px;
+  width: 80vw;
+  padding: 5px;
+}
+/* grid container end */
