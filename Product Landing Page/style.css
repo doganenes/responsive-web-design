@@ -55,7 +55,7 @@ header {
 
 /* subscribe section start */
 .subscribeSection {
-  margin-top: 20px;
+  margin-top: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -133,7 +133,6 @@ header {
 .cardsContainer {
   margin-top: 60px;
   display: flex;
-
   justify-content: center;
 }
 
@@ -146,7 +145,7 @@ header {
   border-radius: 5px;
   height: 300px;
   width: 300px;
-  margin: 10px 30px;
+  margin: 10px 20px;
 }
 
 .card-header {
@@ -175,22 +174,67 @@ header {
   margin: 10px 0;
 }
 
-.btn{
+.btn {
   margin: 20px auto;
 }
-.btn button{
+.btn button {
   background-color: #f1c40f;
   width: 100px;
   height: 30px;
   font-size: 20px;
   border: none;
- font-weight: 500;
- cursor: pointer;
- transition: 0.3s;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
 }
 
-button:hover{
+button:hover {
   background-color: rgb(255, 165, 0);
 }
-
 /* cardsContainer end */
+
+/* footer start */
+.footerContainer {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  display: fixed;
+  bottom: 0;
+  margin-top: 30px;
+  background-color: #ddd;
+  padding: 20px;
+  width: 775px;
+  display: block;
+  font-weight: 500;
+  border-radius: 2px;
+}
+
+footer ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul li {
+  background-color: #ddd;
+}
+
+footer ul li a {
+  text-decoration: none;
+  margin: 0 10px;
+  cursor: pointer;
+  color: #000;
+  font-size: 16px;
+  background-color: #ddd;
+}
+
+footer div {
+  margin-top: 5px;
+  display: flex;
+  justify-content: flex-end;
+  color: #444;
+  font-size: 14px;
+  background-color: #ddd;
+}
+/* footer end */
