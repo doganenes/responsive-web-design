@@ -42,6 +42,29 @@ header {
   font-size: 16px;
   cursor: pointer;
 }
+
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar ul li a:hover {
+  color: #535353;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  transition: 0.3s ease-in-out;
+  background-color: black;
+}
 /* header end */
 
 /* container start */
@@ -238,3 +261,80 @@ footer div {
   background-color: #ddd;
 }
 /* footer end */
+
+/* media queries start */
+@media (max-width: 768px) {
+  .logo img {
+    position: fixed;
+    left: 0;
+    top: 20px;
+  }
+
+  .hamburger {
+    display: block;
+    position: fixed;
+    right: 10px;
+    top: 20px;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(-8px) rotate(45deg);
+  }
+
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    background-color: rgb(238, 238, 238);
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+  }
+
+  .nav-item {
+    margin: 16px 0;
+  }
+
+  .nav-link {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav-menu.active {
+    left: 0;
+  }
+
+  .subscribeSection {
+    margin-top: 60px;
+    font-size: 1rem;
+  }
+
+  .gridContainer {
+    margin-top: 20px;
+  }
+
+  .gridContainer .grid {
+    margin-left: 0;
+    font-size: 2vw;
+  }
+
+  .iFrameContainer {
+    width: 90%;
+  }
+  .cardsContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer div {
+    display: flex;
+    justify-content: center;
+  }
+}
+/* media queries end */
