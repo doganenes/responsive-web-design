@@ -15,6 +15,15 @@ body {
 }
 
 /* header start */
+header {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  position: sticky;
+  top: 0;
+  width: 100vw;
+  height: auto;
+}
 
 .logo {
   margin-top: 20px;
