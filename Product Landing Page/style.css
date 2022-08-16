@@ -273,6 +273,7 @@ footer div {
     top: 0;
     width: 100vw;
     height: auto;
+    z-index:10;
     background-color: rgb(238, 238, 238);
   }
 
