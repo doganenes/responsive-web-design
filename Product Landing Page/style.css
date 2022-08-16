@@ -15,15 +15,6 @@ body {
 }
 
 /* header start */
-header {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  position: sticky;
-  top: 0;
-  width: 100vw;
-  height: auto;
-}
 
 .logo {
   margin-top: 20px;
@@ -264,6 +255,18 @@ footer div {
 
 /* media queries start */
 @media (max-width: 768px) {
+  header,
+  .navbar,
+  .logo {
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    top: 0;
+    width: 100vw;
+    height: auto;
+    background-color: rgb(238, 238, 238);
+  }
+
   .logo img {
     position: fixed;
     left: 0;
