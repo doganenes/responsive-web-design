@@ -7,7 +7,6 @@
   list-style-type: none;
   background-color: rgb(238, 238, 238);
   font-family: "Roboto", sans-serif;
-  list-style-type: none;
 }
 
 body {
@@ -273,7 +272,7 @@ footer div {
     top: 0;
     width: 100vw;
     height: auto;
-    z-index:10;
+    z-index: 10;
     background-color: rgb(238, 238, 238);
   }
 
