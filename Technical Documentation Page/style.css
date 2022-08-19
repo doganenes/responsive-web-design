@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: rgb(255, 255, 255);
+  background-color: #FFFFFF;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -20,9 +20,12 @@ body {
 }
 
 .sidebar .headItem {
+position: sticky;
+top: 0;
   font-size: 30px;
   text-align: center;
   margin-top: 10px;
+  padding-bottom: 20px;
   border-bottom: 1px solid black;
 }
 
@@ -48,5 +51,42 @@ body {
 .content {
   margin-left: 350px;
   margin-right: 30px;
+
 }
+
+.content .title{
+margin: 10px 0;
+font-weight: 500;
+}
+.content ul li{
+  margin-top: 10px;
+}
+
+.content p,.content code,.content ul{
+  opacity: 0.7;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.content p{
+  margin: 15px 0;
+}
+
+code{
+  display: block;
+    text-align: left;
+    white-space: pre-line;
+    position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 2;
+    background-color: #f6f6f6;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
 /* content end */
+
+/* media queries start */
+/* media queries end */
