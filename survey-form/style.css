@@ -113,3 +113,12 @@ label {
   color: white;
   border: none;
 }
+
+@media (max-width: 768px) {
+  .top {
+    width: 95vw;
+  }
+  .surveyBox {
+    width: 95vw;
+  }
+}
