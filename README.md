@@ -4,4 +4,4 @@
 |  02   | [Survey Form](https://github.com/doganenes/responsive-web-design/tree/master/survey-form)                                       | [Live Demo](https://survey-form-project.vercel.app/)                   |
 |  03   | [Product Landing Page](https://github.com/doganenes/responsive-web-design/tree/master/Product%20Landing%20Page)                 | [Live Demo](https://product-landing-page-project.vercel.app/)          |
 |  04   | [Technical Documentation Page](https://github.com/doganenes/responsive-web-design/tree/master/Technical%20Documentation%20Page) | [Live Demo](https://technical-documentation-page-project.netlify.app/) |
-|  05   | [Technical Documentation Page](https://github.com/doganenes/responsive-web-design/tree/master/Personal%20Portfolio)             | [Live Demo](https://personal-portfolio-website-project.netlify.app/)   |
+|  05   | [Personal Portfolio](https://github.com/doganenes/responsive-web-design/tree/master/Personal%20Portfolio)             | [Live Demo](https://personal-portfolio-website-project.netlify.app/)   |
